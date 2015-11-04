@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   get '/coffee', to: redirect('/tea')
 
-  get 'tea', 'redirect#index'
+  get 'tea', to: 'redirect#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
