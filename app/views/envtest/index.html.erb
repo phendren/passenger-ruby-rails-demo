@@ -1,0 +1,16 @@
+<html>
+<head><title>Nginx/Passenger/RoR Env Var Testing</title>
+<!--URL: http://stackoverflow.com/questions/10544233/phusion-passenger-not-seeing-environment-variables -->
+</head>
+<body>
+  <h2><b>
+    This is a list of the ENV Variables we can read with this app!
+  </b></h2>
+  <br /><br />
+  <b>
+  <%= @envx.each do |item| %>
+    <%= item %><br />
+  <% end %>
+  </b>
+</body>
+<html>
