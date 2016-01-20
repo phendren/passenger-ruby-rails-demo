@@ -8,8 +8,7 @@ Rails.application.routes.draw do
   get '/coffee', to: redirect('/tea')
 
   get 'tea', to: 'redirect#index'
-
-  resources :envtest => [:index]
+  #resources :envtest => [:index]
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
