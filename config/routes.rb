@@ -9,6 +9,7 @@ Rails.application.routes.draw do
 
   get 'tea', to: 'redirect#index'
   #resources :envtest => [:index]
+  get 'envtest' => 'envtest#view'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
