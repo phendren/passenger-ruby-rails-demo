@@ -1,9 +1,6 @@
-## Passenger: Ruby on Rails example app
+## Passenger: Ruby on Rails example app - deploy1 branch
 
-This is a Ruby on Rails hello world example app for [the Passenger application server](https://www.phusionpassenger.com/).
+This is a super basic Ruby on Rails example app used for testing a Chef Deploy
+resource and rollback capabilities.
 
-The `master` branch contains the code without Passenger installed.
-
-The `end_result` branch contains the code with Passenger installed.
-
-Run `git diff origin/master..origin/end_result` to see what's different.
+See other branches: deploy2, deploy3

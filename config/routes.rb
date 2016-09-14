@@ -3,13 +3,15 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'home#index'
+  root 'envtest#index'
 
   get '/coffee', to: redirect('/tea')
 
   get 'tea', to: 'redirect#index'
   #resources :envtest => [:index]
   get 'envtest' => 'envtest#index'
+
+  #get 'deploy', to: 'basic#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
