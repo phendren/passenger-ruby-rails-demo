@@ -1,4 +1,4 @@
-## Passenger: Ruby on Rails example app - deploy2 branch
+### RoR test app deploy2 branch
 
 This is a super basic Ruby on Rails example app used for testing a Chef Deploy
 resource and rollback capabilities.
